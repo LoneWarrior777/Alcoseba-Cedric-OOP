@@ -1,0 +1,59 @@
+package OOPSubject;
+
+public MySong {
+
+    public static void main(String[] args) {
+
+        // Create a string containing the lyrics of the song
+        String lyrics = "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name \n" +
+
+                "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name \n" +
+
+                "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name
+
+                "Even when the oceans rise \n" +
+                "And the mountains crumble \n" +
+                "Even when the earth gives way \n" +
+                "And all that's familiar fades away \n" +
+                "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name
+
+                "Even when the oceans rise \n" +
+                "And the mountains crumble \n" +
+                "Even when the earth gives way \n" +
+                "And all that's familiar fades away \n" +
+                "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name
+
+                "Even when the oceans rise \n" +
+                "And the mountains crumble \n" +
+                "Even when the earth gives way \n" +
+                "And all that's familiar fades away \n" +
+                "Spirit lead me where my trust is without borders \n" +
+                "Let me walk where my feet may fail \n" +
+                "And the depths of your love where I'm lost \n" +
+                "I will call on your name
+
+                "I will call on your name \n" +
+                "I will call on your name \n" +
+                "I will call on your name \n" +
+                "I will call on your name";
+
+        // Print the lyrics of the song to the console
+        System.out.println(lyrics);
+
+    }
+}
