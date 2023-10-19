@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class CedPEMDAS {
+
+    private static final double USD_TO_PHP_EXCHANGE_RATE = 0.018;
+
+    public static void main(String[] args) {
+        // Create a scanner to read user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Display the menu
+        System.out.println("Menu:");
+        System.out.println("1. C1 - Php 100.00");
+        System.out.println("2. C2 - Php 150.00");
+        System.out.println("3. C3 - Php 200");
+        System.out.println("4. R1 - Php 35.00");
+        System.out.println("5. R2 - Php 50.00");
+
+        // Get the user's selection
+        System.out.println("Enter your selection: ");
+        int selection = scanner.nextInt();
+
+        // Get the quantity
+        System.out.println("Enter the quantity: ");
+        int quantity = scanner.nextInt();
+
+        // Calculate the total price
+        double totalPrice = 0.0;
+        switch (selection) {
+            case 1:
+                totalPrice = 100.0 * quantity;
+                break;
+            case 2:
+                totalPrice = 150.0 * quantity;
+                break;
+            case 3:
+                totalPrice = 200.0 * quantity;
+                break;
+            case 4:
+                totalPrice = 35.0 * quantity;
+                break;
+            case 5:
+                totalPrice = 50.0 * quantity;
+                break;
+            default:
+                System.out.println("Invalid selection");
+                return;
+        }
+
+        // Convert the total price to US dollars
+        double totalUsd = totalPrice * USD_TO_PHP_EXCHANGE_RATE;
+
+        // Display the order details
+        System.out.println("Order details:");
+        System.out.println("Item: " + selection);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Total price: Php " + totalPrice);
+        System.out.println("Total price (USD): $" + totalUsd);
+    }
+}
